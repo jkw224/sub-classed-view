@@ -10,16 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var monsterImg: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        var imgArray = [UIImage]()
+        
+        for x in 1...4 {
+            let img = UIImage(named: "idle\(x).png")
+            imgArray.append(img!)
+        }
+        
+        monsterImg.animationImages = imgArray
+        monsterImg.animationDuration = 1.2
+        monsterImg.animationRepeatCount = 0
+        monsterImg.startAnimating()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
