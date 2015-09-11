@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB0CDD521BA2542800519186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CDD511BA2542800519186 /* AppDelegate.swift */; };
+		FB0CDD541BA2542800519186 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CDD531BA2542800519186 /* ViewController.swift */; };
+		FB0CDD571BA2542800519186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0CDD551BA2542800519186 /* Main.storyboard */; };
+		FB0CDD591BA2542800519186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0CDD581BA2542800519186 /* Assets.xcassets */; };
+		FB0CDD5C1BA2542800519186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0CDD5A1BA2542800519186 /* LaunchScreen.storyboard */; };
+		FB0CDD671BA2542800519186 /* my_little_monsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CDD661BA2542800519186 /* my_little_monsterTests.swift */; };
+		FB0CDD721BA2542800519186 /* my_little_monsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CDD711BA2542800519186 /* my_little_monsterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB0CDD631BA2542800519186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0CDD461BA2542800519186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0CDD4D1BA2542800519186;
+			remoteInfo = "my-little-monster";
+		};
+		FB0CDD6E1BA2542800519186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0CDD461BA2542800519186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0CDD4D1BA2542800519186;
+			remoteInfo = "my-little-monster";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB0CDD4E1BA2542800519186 /* my-little-monster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-little-monster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0CDD511BA2542800519186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB0CDD531BA2542800519186 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB0CDD561BA2542800519186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB0CDD581BA2542800519186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB0CDD5B1BA2542800519186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB0CDD5D1BA2542800519186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0CDD621BA2542800519186 /* my-little-monsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-little-monsterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0CDD661BA2542800519186 /* my_little_monsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_little_monsterTests.swift; sourceTree = "<group>"; };
+		FB0CDD681BA2542800519186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0CDD6D1BA2542800519186 /* my-little-monsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-little-monsterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0CDD711BA2542800519186 /* my_little_monsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_little_monsterUITests.swift; sourceTree = "<group>"; };
+		FB0CDD731BA2542800519186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB0CDD4B1BA2542800519186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0CDD5F1BA2542800519186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0CDD6A1BA2542800519186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB0CDD451BA2542800519186 = {
+			isa = PBXGroup;
+			children = (
+				FB0CDD501BA2542800519186 /* my-little-monster */,
+				FB0CDD651BA2542800519186 /* my-little-monsterTests */,
+				FB0CDD701BA2542800519186 /* my-little-monsterUITests */,
+				FB0CDD4F1BA2542800519186 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB0CDD4F1BA2542800519186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB0CDD4E1BA2542800519186 /* my-little-monster.app */,
+				FB0CDD621BA2542800519186 /* my-little-monsterTests.xctest */,
+				FB0CDD6D1BA2542800519186 /* my-little-monsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB0CDD501BA2542800519186 /* my-little-monster */ = {
+			isa = PBXGroup;
+			children = (
+				FB0CDD511BA2542800519186 /* AppDelegate.swift */,
+				FB0CDD531BA2542800519186 /* ViewController.swift */,
+				FB0CDD551BA2542800519186 /* Main.storyboard */,
+				FB0CDD581BA2542800519186 /* Assets.xcassets */,
+				FB0CDD5A1BA2542800519186 /* LaunchScreen.storyboard */,
+				FB0CDD5D1BA2542800519186 /* Info.plist */,
+			);
+			path = "my-little-monster";
+			sourceTree = "<group>";
+		};
+		FB0CDD651BA2542800519186 /* my-little-monsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0CDD661BA2542800519186 /* my_little_monsterTests.swift */,
+				FB0CDD681BA2542800519186 /* Info.plist */,
+			);
+			path = "my-little-monsterTests";
+			sourceTree = "<group>";
+		};
+		FB0CDD701BA2542800519186 /* my-little-monsterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0CDD711BA2542800519186 /* my_little_monsterUITests.swift */,
+				FB0CDD731BA2542800519186 /* Info.plist */,
+			);
+			path = "my-little-monsterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB0CDD4D1BA2542800519186 /* my-little-monster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0CDD761BA2542800519186 /* Build configuration list for PBXNativeTarget "my-little-monster" */;
+			buildPhases = (
+				FB0CDD4A1BA2542800519186 /* Sources */,
+				FB0CDD4B1BA2542800519186 /* Frameworks */,
+				FB0CDD4C1BA2542800519186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "my-little-monster";
+			productName = "my-little-monster";
+			productReference = FB0CDD4E1BA2542800519186 /* my-little-monster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB0CDD611BA2542800519186 /* my-little-monsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0CDD791BA2542800519186 /* Build configuration list for PBXNativeTarget "my-little-monsterTests" */;
+			buildPhases = (
+				FB0CDD5E1BA2542800519186 /* Sources */,
+				FB0CDD5F1BA2542800519186 /* Frameworks */,
+				FB0CDD601BA2542800519186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0CDD641BA2542800519186 /* PBXTargetDependency */,
+			);
+			name = "my-little-monsterTests";
+			productName = "my-little-monsterTests";
+			productReference = FB0CDD621BA2542800519186 /* my-little-monsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB0CDD6C1BA2542800519186 /* my-little-monsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0CDD7C1BA2542800519186 /* Build configuration list for PBXNativeTarget "my-little-monsterUITests" */;
+			buildPhases = (
+				FB0CDD691BA2542800519186 /* Sources */,
+				FB0CDD6A1BA2542800519186 /* Frameworks */,
+				FB0CDD6B1BA2542800519186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0CDD6F1BA2542800519186 /* PBXTargetDependency */,
+			);
+			name = "my-little-monsterUITests";
+			productName = "my-little-monsterUITests";
+			productReference = FB0CDD6D1BA2542800519186 /* my-little-monsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB0CDD461BA2542800519186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jonathan Wood";
+				TargetAttributes = {
+					FB0CDD4D1BA2542800519186 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FB0CDD611BA2542800519186 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FB0CDD4D1BA2542800519186;
+					};
+					FB0CDD6C1BA2542800519186 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FB0CDD4D1BA2542800519186;
+					};
+				};
+			};
+			buildConfigurationList = FB0CDD491BA2542800519186 /* Build configuration list for PBXProject "my-little-monster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB0CDD451BA2542800519186;
+			productRefGroup = FB0CDD4F1BA2542800519186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB0CDD4D1BA2542800519186 /* my-little-monster */,
+				FB0CDD611BA2542800519186 /* my-little-monsterTests */,
+				FB0CDD6C1BA2542800519186 /* my-little-monsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB0CDD4C1BA2542800519186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0CDD5C1BA2542800519186 /* LaunchScreen.storyboard in Resources */,
+				FB0CDD591BA2542800519186 /* Assets.xcassets in Resources */,
+				FB0CDD571BA2542800519186 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0CDD601BA2542800519186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0CDD6B1BA2542800519186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB0CDD4A1BA2542800519186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0CDD541BA2542800519186 /* ViewController.swift in Sources */,
+				FB0CDD521BA2542800519186 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0CDD5E1BA2542800519186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0CDD671BA2542800519186 /* my_little_monsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0CDD691BA2542800519186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0CDD721BA2542800519186 /* my_little_monsterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB0CDD641BA2542800519186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0CDD4D1BA2542800519186 /* my-little-monster */;
+			targetProxy = FB0CDD631BA2542800519186 /* PBXContainerItemProxy */;
+		};
+		FB0CDD6F1BA2542800519186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0CDD4D1BA2542800519186 /* my-little-monster */;
+			targetProxy = FB0CDD6E1BA2542800519186 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB0CDD551BA2542800519186 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0CDD561BA2542800519186 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB0CDD5A1BA2542800519186 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0CDD5B1BA2542800519186 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB0CDD741BA2542800519186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB0CDD751BA2542800519186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB0CDD771BA2542800519186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "my-little-monster/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathan.my-little-monster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB0CDD781BA2542800519186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "my-little-monster/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathan.my-little-monster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB0CDD7A1BA2542800519186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "my-little-monsterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathan.my-little-monsterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my-little-monster.app/my-little-monster";
+			};
+			name = Debug;
+		};
+		FB0CDD7B1BA2542800519186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "my-little-monsterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathan.my-little-monsterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my-little-monster.app/my-little-monster";
+			};
+			name = Release;
+		};
+		FB0CDD7D1BA2542800519186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "my-little-monsterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathan.my-little-monsterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "my-little-monster";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FB0CDD7E1BA2542800519186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "my-little-monsterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathan.my-little-monsterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "my-little-monster";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB0CDD491BA2542800519186 /* Build configuration list for PBXProject "my-little-monster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0CDD741BA2542800519186 /* Debug */,
+				FB0CDD751BA2542800519186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0CDD761BA2542800519186 /* Build configuration list for PBXNativeTarget "my-little-monster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0CDD771BA2542800519186 /* Debug */,
+				FB0CDD781BA2542800519186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB0CDD791BA2542800519186 /* Build configuration list for PBXNativeTarget "my-little-monsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0CDD7A1BA2542800519186 /* Debug */,
+				FB0CDD7B1BA2542800519186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB0CDD7C1BA2542800519186 /* Build configuration list for PBXNativeTarget "my-little-monsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0CDD7D1BA2542800519186 /* Debug */,
+				FB0CDD7E1BA2542800519186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB0CDD461BA2542800519186 /* Project object */;
+}
