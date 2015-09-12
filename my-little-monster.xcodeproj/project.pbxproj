@@ -14,6 +14,8 @@
 		FB0CDD5C1BA2542800519186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0CDD5A1BA2542800519186 /* LaunchScreen.storyboard */; };
 		FB0CDD671BA2542800519186 /* my_little_monsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CDD661BA2542800519186 /* my_little_monsterTests.swift */; };
 		FB0CDD721BA2542800519186 /* my_little_monsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CDD711BA2542800519186 /* my_little_monsterUITests.swift */; };
+		FB0CDD801BA3584600519186 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CDD7F1BA3584600519186 /* DragImg.swift */; settings = {ASSET_TAGS = (); }; };
+		FB0CDD821BA35EB200519186 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CDD811BA35EB200519186 /* MonsterImg.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FB0CDD6D1BA2542800519186 /* my-little-monsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-little-monsterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0CDD711BA2542800519186 /* my_little_monsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_little_monsterUITests.swift; sourceTree = "<group>"; };
 		FB0CDD731BA2542800519186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0CDD7F1BA3584600519186 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		FB0CDD811BA35EB200519186 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				FB0CDD581BA2542800519186 /* Assets.xcassets */,
 				FB0CDD5A1BA2542800519186 /* LaunchScreen.storyboard */,
 				FB0CDD5D1BA2542800519186 /* Info.plist */,
+				FB0CDD7F1BA3584600519186 /* DragImg.swift */,
+				FB0CDD811BA35EB200519186 /* MonsterImg.swift */,
 			);
 			path = "my-little-monster";
 			sourceTree = "<group>";
@@ -255,6 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB0CDD821BA35EB200519186 /* MonsterImg.swift in Sources */,
+				FB0CDD801BA3584600519186 /* DragImg.swift in Sources */,
 				FB0CDD541BA2542800519186 /* ViewController.swift in Sources */,
 				FB0CDD521BA2542800519186 /* AppDelegate.swift in Sources */,
 			);
@@ -483,6 +491,7 @@
 				FB0CDD781BA2542800519186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB0CDD791BA2542800519186 /* Build configuration list for PBXNativeTarget "my-little-monsterTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +500,7 @@
 				FB0CDD7B1BA2542800519186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB0CDD7C1BA2542800519186 /* Build configuration list for PBXNativeTarget "my-little-monsterUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +509,7 @@
 				FB0CDD7E1BA2542800519186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
