@@ -70,12 +70,6 @@ class ViewController: UIViewController {
             sfxDeath.prepareToPlay()
             sfxSkull.prepareToPlay()
             
-            if currentItem == 0 {
-                sfxHeart.play()
-            } else {
-                sfxBite.play()
-            }
-            
         } catch let err as NSError {
             print(err.debugDescription)
         }
@@ -91,6 +85,12 @@ class ViewController: UIViewController {
         foodImg.userInteractionEnabled = false
         heartImg.alpha = DIM_ALPHA
         heartImg.userInteractionEnabled = false
+        
+        if currentItem == 0 {
+            sfxHeart.play()
+        } else {
+            sfxBite.play()
+        }
     }
     
     // Start a 3-second timer
